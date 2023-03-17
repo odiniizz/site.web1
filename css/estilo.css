@@ -1,0 +1,60 @@
+h2 {
+    color: rgb(116, 32, 194);
+    border: 0.2rem solid rgb(116, 32, 194);
+    border-radius: 1.0rem;
+    text-align: center;
+}
+
+h1, h3, h4, h5, h6 {
+    display: none;
+}
+
+body ul li {
+    color: rgb(121, 18, 153);
+}
+
+p {
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 2rem;
+    word-spacing: 2rem;
+    color: white;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2 rem 0.2em black 0 0 1rem blue, 0 0 2rem darkblue;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: rgb(68, 10, 122);
+}
+a:hover {
+    color:rgb(170, 132, 206)
+}
+
+footer {
+    clear: both;
+    background: #d9d9d9 url();
+    height: 1rem;
+}
+
+div {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: inline;
+    z-index: 2 rem;
+    background-color: lightgreen;
+    color: white;
+    border: 0.2rem solid darkgreen;
+    padding: 0.2rem;
+    font-size: 2rem;
+}
+
+h1#page1 {
+    color: rgb(186, 128, 240);
+    text-decoration: underline;
+}  
