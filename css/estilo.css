@@ -5,7 +5,7 @@ h2 {
     text-align: center;
 }
 
-h1, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
     display: none;
 }
 
@@ -13,7 +13,7 @@ body ul li {
     color: rgb(121, 18, 153);
 }
 
-p {
+p.index {
     text-decoration: underline #ccc double 0.1rem;
     text-indent: 1rem;
 }
@@ -55,6 +55,45 @@ div {
 }
 
 h1#page1 {
-    color: rgb(186, 128, 240);
-    text-decoration: underline;
-}  
+    color: rgb(136, 71, 193);
+    text-align: center;
+}
+img {
+    width: 50rem;
+    text-align: center;
+}
+
+ol {
+    list-style-type: square;
+}
+
+h1#page2 {
+    color:rgb(136, 71, 193);
+    text-align: center;
+}
+
+ul {
+    list-style-type: upper-roman;
+}
+
+img {
+    width: 45rem;
+    text-align: center;
+}
+
+main.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vg;
+    justify-content: center;
+    align-items: center;
+}
+main.flexbox article {
+    background-color:rgb(68, 10, 122);
+    margin: 1rem;
+    padding: 2rem;
+}
